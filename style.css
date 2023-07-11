@@ -19,6 +19,7 @@ body{
     color: #272727;
     font-size: 35px;
     font-weight: 800;
+    margin: 0;
 }
 .section-discription{
     color: rgba(39, 39, 39, 0.60);
@@ -27,6 +28,7 @@ body{
     font-weight: 400;
     line-height: 30px;
     width: 600px;
+    padding: 10px 0;
 }
 
 /* HEADER STYLE */
@@ -180,7 +182,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin: 100px 150px;
-    padding: 35px 0 65px 0;
+    padding: 75px 0;
 }
 .form-email{
     width: 460px;
