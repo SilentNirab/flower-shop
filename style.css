@@ -121,27 +121,19 @@ body{
 /* HOT DEAL SECTION */
 .hotdeal{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background: rgba(229, 84, 115, 0.05);
     padding: 100px 0;
 }
-.deal-container{
-    position: relative;
-}
-.deal-container>p,h3{
-    text-align: center;
-}
-.section-heading span{
-    color: #E55473;
-}
-.deal-container button{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+.deal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
 }
 .hotdeal img{
-   width: 300px;
-   height: 400px;
+   margin-right: 150px;
 }
 
 /* INSTAGRAM SECTION */
@@ -200,7 +192,6 @@ body{
 .form-email:focus {
     outline: 1px solid #E55473;
 }
-
 /* FOOTER STYLE */
 .footer{
     display: flex;
@@ -211,16 +202,19 @@ body{
 .footer-container{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .footer-container>h3{
     color: #FFF;
+}
+.footer-container span{
+    color: #E55473;
 }
 .footer-container>p{
     color: #FFF;
 }
 .footer-container>span{
     color: rgba(255, 255, 255, 0.40);
-    text-align: center;
     font-size: 14px;
     margin-top: 10px;
 }
